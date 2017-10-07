@@ -1,0 +1,11 @@
+Debugging tips
+
+If you see an error when you try to visit your site, the first place to look for some debugging info is in your error log. You'll find a link to this on the PythonAnywhere Web tab. See if there are any error messages in there; the most recent ones are at the bottom. Common problems include:
+
+Forgetting one of the steps we did in the console: creating the virtualenv, activating it, installing Django into it, migrating the database.
+
+Making a mistake in the virtualenv path on the Web tab – there will usually be a little red error message on there, if there is a problem.
+
+Making a mistake in the WSGI configuration file – did you get the path to your my-first-blog folder right?
+
+Did you pick the same version of Python for your virtualenv as you did for your web app? Both should be 3.6.
